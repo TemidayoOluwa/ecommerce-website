@@ -1,0 +1,218 @@
+/* major fixes */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*img{
+    height: 100%;
+    width: 100%;
+}*/
+body{
+    margin: 0 auto;
+    max-width: 1250px;
+    font-family: 'kumbh sans', sans-serif;
+}
+/* major fixes ends */
+
+/* header starts here $$$$$$$$$$$$*/
+header{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: .1px solid #b6bcc8;
+    display: flex;
+    justify-content: space-between;
+}
+/* mobile header */
+.mobile-header{
+    display: none;
+}
+/* right div starts here*/
+header .rightdiv{
+    /* border: 2px solid green; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightdiv .name{
+    font-weight: 600;
+    /* font-family: ; */
+    font-size: 40px;
+    color: #1d2025;
+}
+.rightdiv ul{
+    display: flex;
+    list-style: none;
+    
+}
+.rightdiv ul li a{
+    padding: 0 25px 40px 25px; 
+    text-decoration: none;
+    color: #68707d; 
+    font-size: 14px;
+
+}
+
+.rightdiv ul li a:hover{
+    border-bottom: 2px solid #ff7d1a;
+    cursor: grab;
+}
+/* ========right div ends here*/
+
+/* left div ends here =========*/
+.leftdiv{
+    /* border: 2px solid tomato; */
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftdiv .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+.leftdiv .cart:hover{
+    cursor: grabbing;
+}
+.photo:hover{
+    cursor: grab;
+    border: 2px solid #ff7d1a;
+    border-radius: 50px;
+}
+
+/* left div ends here=========*/
+/*$$$$$$$$$$$ header ends here */
+.display-img-mh{
+    display: none;
+}
+/* %%%%%%%%%% first section starts here*/
+.firstsection{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*^^^^^^^^ firstsection right div */
+.firstsection-rightdiv{
+    width: 50%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstsection-rightdiv .product-imgs{
+    display: flex;
+    justify-content: center;
+}
+.firstsection-rightdiv #manipulation-dpimg{
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.firstsection-rightdiv .picture{
+    width: 15%;
+    /* height: ; */
+    border-radius: 8px;
+    margin: 0 10px;
+
+}
+/* firstsection right div ends ^^^^^^ */
+
+/* #############firstsection left div starts */
+.firstsection-leftdiv{
+    width: 45%;
+    /* border: 3px solid purple; */
+    margin: 100px 0 ;
+}
+.leftdiv-one{
+    margin-bottom: 25px;
+}
+.firstsection-leftdiv .leftdiv-one .title{
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+    color:#ff7d1a ;
+}
+.firstsection-leftdiv .subtitle{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.firstsection-leftdiv .product-story{
+    line-height: 35px;
+    color:  #68707d ;
+    margin-bottom: 25px;
+}
+
+.cost-calc{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 60px;
+    /* border: 3px solid greenyellow; */
+}
+.sales-price{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.discount{
+    padding: 4px;
+    color: #ff7d1a;
+    background: #ffede0;
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 0 10px;
+}
+.normal-price{
+    color: #68707d;
+    font-size: 14px;
+    margin-bottom: 35px;
+    /* border: 3px solid red; */
+    width: 30%;
+
+}
+.cart-organisation{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-organisation .order-counter{
+    display: flex;
+}
+.addition, .minus, .order-no{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #ff7d1a;
+    background: #f7f8fd;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.order-no{
+    color: #1d2025;
+}
+.cart-organisation .btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background: #ff7d1a;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.cart-organisation .btn p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+/* firstsection left div ends ########## */
+/* %%%%%%%%%% first section ends here*/
